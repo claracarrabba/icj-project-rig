@@ -4,37 +4,37 @@
       "name": "Elizabeth St. Cafe",
       "slug": "elizabeth-st",
       "url": "https://elizabethstreetcafe.com/austin/",
-      "address": "1501 S. First Street",
+      "address": "1501 S. First St.",
       "city": "Austin",
       "state": "TX",
       "zip": 78704
     },
     {
-      "name": "Resistencia Bookstore",
-      "slug": "resistencia-books",
-      "url": "https://www.resistenciabooks.com/",
-      "address": "2000 Thrasher Ln",
-      "city": "Austin",
+      "name": "Avalon Diner",
+      "slug": "avalon",
+      "url": "https://www.avalondiner.com/",
+      "address": "2417 Westheimer Rd.",
+      "city": "Houston",
       "state": "TX",
-      "zip": 78741
+      "zip": 77063
     },
     {
-      "name": "Malvern Books",
-      "slug": "malvern-books",
-      "url": "http://malvernbooks.com/",
-      "address": "613 W 29th St",
-      "city": "Austin",
-      "state": "TX",
-      "zip": 78705
+      "name": "Sunday in Brooklyn",
+      "slug": "sunday-bk",
+      "url": "https://www.sundayinbrooklyn.com/",
+      "address": "348 Wythe Ave.",
+      "city": "Brooklyn",
+      "state": "NY",
+      "zip": 11249
     },
     {
-      "name": "Monkeywrench Books",
-      "slug": "monkeywrench",
-      "url": "https://www.monkeywrenchbooks.org/",
-      "address": "110 N Loop Blvd E",
-      "city": "Austin",
+      "name": "Bistro 555",
+      "slug": "bistro",
+      "url": "https://www.bistro555.net/",
+      "address": "13616 Memorial Dr.",
+      "city": "Houston",
       "state": "TX",
-      "zip": 78751
+      "zip": 77079
     },
     {
       "name": "Brave New Books",
