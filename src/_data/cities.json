@@ -1,0 +1,40 @@
+{
+  "Restaurants": [
+    {
+      "Name": "Elizabeth St. Café",
+      "City": "Austin",
+      "Address": "1501 S 1st St, Austin, TX 78704",
+      "Type of Cuisine": "Vietnamese, French"
+    },
+    {
+      "Name": "Avalon Diner",
+      "City": "Houston",
+      "Address": "8823 Katy Fwy, Houston, TX 77024",
+      "Type of Cuisine": "American"
+    },
+    {
+      "Name": "Sunday in Brooklyn",
+      "City": "New York",
+      "Address": "348 Wythe Ave, Brooklyn, NY 11249",
+      "Type of Cuisine": "Brunch"
+    },
+    {
+      "Name": "Emmett's on Grove",
+      "City": "New York",
+      "Address": "39 Grove St, New York, NY 10014",
+      "Type of Cuisine": "Pizza"
+    },
+    {
+      "Name": "Misi",
+      "City": "New York",
+      "Address": " 329 Kent Ave, Brooklyn, NY 11249",
+      "Type of Cuisine": "Italian"
+    },
+    {
+      "Name": "White Horse Tavern",
+      "City": "New York",
+      "Address": "567 Hudson St, New York, NY 10014",
+      "Type of Cuisine": "American"
+    }
+  ]
+}
