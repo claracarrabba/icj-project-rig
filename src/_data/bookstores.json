@@ -1,13 +1,13 @@
 {
   "stores": [
     {
-      "name": "BookPeople",
-      "slug": "bookpeople",
-      "url": "https://www.bookpeople.com/",
-      "address": "603 N Lamar Blvd",
+      "name": "Elizabeth St. Cafe",
+      "slug": "elizabeth-st",
+      "url": "https://elizabethstreetcafe.com/austin/",
+      "address": "1501 S. First Street",
       "city": "Austin",
       "state": "TX",
-      "zip": 78703
+      "zip": 78704
     },
     {
       "name": "Resistencia Bookstore",
