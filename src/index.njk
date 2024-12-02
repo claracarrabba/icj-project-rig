@@ -6,10 +6,9 @@
 
 {% block content %}
 <div class="container">
-  <h1>2024 Final Project</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in facilisis velit, aliquam congue dui. Mauris id mi quam. Nam enim leo, bibendum vel efficitur id, elementum malesuada est. Pellentesque interdum tempus eros nec iaculis. Quisque ac est dictum, vehicula nulla quis, condimentum dui.</p>
-  <h2>Library books loop</h2>
-  <p>This loops through data that came from a Google Docs example.</p>
+  <h1>My Foodie Diary</h1>
+  <p>Your guide to the best local eats in Houston, Austin, and New York City</p>
+  <h2>Featured Recommendations</h2>
   <div class="row">
     {% for book in library.books %}
       <div class="col">
@@ -18,7 +17,7 @@
       </div>
     {% endfor %}
   </div>
-  <h2>Bookstores loop</h2>
+  <h2>Restaurants loop</h2>
   <p>This loops through data that came from a Google Sheet example.</p>
   <hr>
   {% for store in bookstores.stores %}
