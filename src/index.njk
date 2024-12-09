@@ -20,7 +20,7 @@
   <hr>
   {% for restaurant in restaurants.Restaurants %}
     <h3><a href="{{ restaurant.url }}" target="_blank">{{ restaurant.Name }}</a></h3>
-    <p>{{ restaurant.Address }}, {{ restaurant.Type of Cuisine }}</p>
+    <p>{{ restaurant.Address }}, {{ restaurant.City }}, {{ restaurant.State }} {{ restaurant.Zip }}</p>
     <hr>
   {% endfor %}
 </div>
