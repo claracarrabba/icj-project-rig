@@ -1,28 +1,28 @@
 {% extends '_templates/base.njk' %}
 
-{% block page_title %}My Foodie Diary{% endblock %}
+{% block page_title %}Foodie Favorites{% endblock %}
 
 {% block page_description %}The index search description for this page goes here.{% endblock %}
 
 {% block content %}
 <div class="container">
-  <h1>My Foodie Diary</h1>
+  <h1>Foodie Favorites</h1>
   <p>Your guide to the best local eats in Houston, Austin, and New York City</p>
-  <h2>Featured Recommendations</h2>
+  <h2>Recommended</h2>
   <div class="row">
-    {% for book in library.books %}
+    {% for restaurant in recommended.Recommended %}
       <div class="col">
-        <img src="img/{{ book.slug }}.jpg" alt="" class="img-fluid">
-        <h3><a href="books/{{ book.slug }}.html">{{ book.title }}</a></h3>
+        <img src="img/{{ restaurant.slug }}.jpg" alt="" class="img-fluid">
+        <h3><a href="restaurants/{{ restaurant.slug }}.html">{{ restaurant.Name }}</a></h3>
       </div>
     {% endfor %}
   </div>
   <h2>Restaurants loop</h2>
   <p>This loops through data that came from a Google Sheet example.</p>
   <hr>
-  {% for store in bookstores.stores %}
-    <h3><a href="{{ store.url }}" target="_blank">{{ store.name }}</a></h3>
-    <p>{{ store.address}}, {{ store.city }}, {{ store.state }} {{ store.zip }}</p>
+  {% for restaurant in restaurants.Restaurants %}
+    <h3><a href="{{ restaurant.url }}" target="_blank">{{ restaurant.Name }}</a></h3>
+    <p>{{ restaurant.Address}}, {{ restaurant.City }}, {{ restaurant.State }} {{ restaurant.Zip }}</p>
     <hr>
   {% endfor %}
 </div>
