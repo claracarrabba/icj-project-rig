@@ -4,61 +4,78 @@
       "Name": "Avalon Diner",
       "Address": "8823 Katy Fwy, Houston, TX 77024",
       "Type of Cuisine": "American",
-      "slug": "avalon"
+      "slug": "avalon",
+      "url": "https://www.avalondiner.com/"
     },
     {
       "Name": "Emmett's on Grove",
       "Address": "39 Grove St, New York, NY 10014",
       "Type of Cuisine": "Pizza",
-      "slug": "emmetts"
+      "slug": "emmetts",
+      "url": "https://www.emmettsnyc.com/"
     },
     {
       "Name": "Misi",
       "Address": "329 Kent Ave, Brooklyn, NY 11249",
       "Type of Cuisine": "Italian",
-      "slug": "misi"
+      "slug": "misi",
+      "url": "https://www.misinewyork.com/"
     },
     {
       "Name": "White Horse Tavern",
       "Address": "567 Hudson St, New York, NY 10014",
       "Type of Cuisine": "American",
-      "slug": "whitehorse"
+      "slug": "whitehorse",
+      "url": "https://www.whitehorsetavern1880.com/"
     },
     {
       "Name": "Joann's Fine Foods",
       "Address": "1224 S Congress Ave, Austin, TX 78704",
       "Type of Cuisine": "Mexican, American",
-      "slug": "joanns"
+      "slug": "joanns",
+      "url": "https://joannsaustin.com/"
     },
     {
       "Name": "Elizabeth St. Cafe",
       "Address": "1501 S 1st St, Austin, TX 78704",
       "Type of Cuisine": "Vietnamese, French",
-      "slug": "elizabeths"
+      "slug": "elizabeths",
+      "url": "https://elizabethstreetcafe.com/austin/"
     },
     {
       "Name": "Nom Wah",
       "Address": "13 Doyers St, New York, NY 10013",
       "Type of Cuisine": "Dim Sum",
-      "slug": "nomwah"
+      "slug": "nomwah",
+      "url": "https://nomwah.com/"
     },
     {
       "Name": "Colleen's Kitchen",
       "Address": "1911 Aldrich St STE 100, Austin, TX 78723",
       "Type of Cuisine": "Southern",
-      "slug": "colleens"
+      "slug": "colleens",
+      "url": "https://www.colleensaustin.com/"
     },
     {
       "Name": "Ramen Tatsuya",
       "Address": "1722 California St, Houston, TX 77006",
       "Type of Cuisine": "Ramen",
-      "slug": "tatsuya"
+      "slug": "tatsuya",
+      "url": "https://www.ramen-tatsuya.com/"
     },
     {
       "Name": "Sullivan St. Bakery",
       "Address": "533 W 47th St, New York, NY 10036",
       "Type of Cuisine": "Bakery",
-      "slug": "sullivans"
+      "slug": "sullivans",
+      "url": "https://www.sullivanstreetbakery.com/"
+    },
+    {
+      "Name": "Kome",
+      "Address": "5301 Airport Blvd #100, Austin, TX 78751",
+      "Type of Cuisine": "Sushi",
+      "slug": "kome",
+      "url": "https://www.kome-austin.com/miso/"
     }
   ],
   "Recommended": [
