@@ -7,12 +7,6 @@
       "slug": "avalon"
     },
     {
-      "Name": "Sunday in Brooklyn",
-      "Address": "348 Wythe Ave, Brooklyn, NY 11249",
-      "Type of Cuisine": "American",
-      "slug": "sunday-bk"
-    },
-    {
       "Name": "Emmett's on Grove",
       "Address": "39 Grove St, New York, NY 10014",
       "Type of Cuisine": "Pizza",
@@ -70,27 +64,27 @@
   "Recommended": [
     {
       "Name": "Aba",
-      "City": "Austin",
       "Address": "1011 S Congress Ave Bldg 2 Suite 180",
-      "Type of Cuisine": "Mediterranean",
       "slug": "aba",
-      "image": "aba.jpg"
+      "image": "aba.jpg",
+      "favorites": "Crispy Short Rib Hummus, Heirloom Chicken Thigh (pictured), Truffle Baked Orzo, Chocolate Chocolate Cake",
+      "description": "Aba, a swanky Mediterranean hotspot, opened on South Congress in 2020. Its upscale atmosphere and perfectly curated menu makes it perfect for special occassions."
     },
     {
       "Name": "Bistro 555",
-      "City": "Houston",
       "Address": "13616 Memorial Dr, Houston, TX 77079",
-      "Type of Cuisine": "French",
       "slug": "bistro",
-      "image": "bistro.jpg"
+      "image": "bistro.jpg",
+      "favorites": "Soupe Gratinée à L'oignon, Heirloom Chicken Thigh, Cassolette de Langouste Sauce Homard (pictured), Les Moules Frites Du \"Rabelais\"",
+      "description": "Bistro 555, a cozy Houston hole-in-the-wall, has served the Memorial area with traditional French dishes since 2000. The restaurant's romantic and personal feeling makes every plate feel special."
     },
     {
       "Name": "Sunday in Brooklyn",
-      "City": "New York",
       "Address": "348 Wythe Ave, Brooklyn, NY 11249",
-      "Type of Cuisine": "American",
       "slug": "sunday",
-      "image": "sunday.jpeg"
+      "image": "sunday.jpg",
+      "favorites": "Sunday Pancakes (pictured), Shakshuka, Egg and Cheese Sandwich",
+      "description": "Sunday in Brooklyn has the best brunch in town. Try their trademarked Sunday Pancakes, a decadent, cake-like twist on a classic. Anything on the menu is destined to delight."
     }
   ]
 }
