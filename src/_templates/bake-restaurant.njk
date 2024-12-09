@@ -10,11 +10,13 @@
   <article class="container">
     <div class="row">
       <div class="col-sm-4">
-          <img src="../img/{{ image }}.jpg" alt="Photo of Restaurant" class="img-fluid mb-4">
+          <img src="../img/{{ image }}" alt="Photo of Food" class="img-fluid mb-4">
       </div>
       <div class="col-sm-8">
           <h1>{{ Name }}</h1>
-          <p>{{ City }}</p>
+          <p>{{ Address }}</p>
+          <h2>{{ Favorites }}</h2>
+          <p> <ul> {{ favorites }} </ul> </p>
       </div>
     </div>
   </article>
