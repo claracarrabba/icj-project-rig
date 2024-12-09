@@ -21,13 +21,10 @@
 // Import partials
 @import 'nav';
 h1 {
-  font-size: 1.8rem;
-  font-family: 'Georgia', serif;
-  color: #e63946;
-  text-transform: capitalize; 
-  text-align: center; 
-  letter-spacing: 1px; 
-  border-bottom: 2px solid #f1faee; 
+  font-family: 'Poppins', sans-serif; /* Custom font */
+  letter-spacing: 0.1rem; /* Add spacing between letters */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Subtle text shadow */
+  color: #FF5733; /* Vibrant custom color */
 }
 
 h3 {
