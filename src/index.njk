@@ -12,7 +12,7 @@
   <div class="row">
     {% for restaurant in recommended.Recommended %}
       <div class="col">
-        <img src="img/{{ restaurant.slug }}.jpg" alt="" class="img-fluid">
+        <img src="img/{{ restaurant.slug }}.jpg" width=300 height=200 alt="" class="img-fluid">
         <h3><a href="restaurants/{{ restaurant.slug }}.html">{{ restaurant.Name }}</a></h3>
       </div>
     {% endfor %}

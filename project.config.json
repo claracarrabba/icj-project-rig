@@ -19,10 +19,10 @@
   "to_bake": [
     {
       "template": "bake-restaurant",
-      "data": "restaurants",
-      "array": "Restaurants",
+      "data": "recommended",
+      "array": "Recommended",
       "slug": "slug",
-      "path": "Restaurants"
+      "path": "restaurants"
     }
   ]
 }

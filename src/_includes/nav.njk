@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="{{ relative_path }}index.html">Navbar</a>
+    <a class="navbar-brand" href="{{ relative_path }}index.html">Home</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -11,8 +11,8 @@
             Top Recs
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            {% for recommendations in Restaurants.restaurant %}
-            <li><a class="dropdown-item" href="{{ relative_path }}restaurants/{{ restaurant.slug}}.html">{{ restaurant.name }}</a></li>
+            {% for restaurant in recommended.Recommended %}
+            <li><a class="dropdown-item" href="{{ relative_path }}restaurants/{{ restaurant.slug}}.html">{{ restaurant.Name }}</a></li>
             {% endfor %}
           </ul>
         </li>

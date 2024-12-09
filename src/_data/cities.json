@@ -74,23 +74,23 @@
       "Address": "1011 S Congress Ave Bldg 2 Suite 180",
       "Type of Cuisine": "Mediterranean",
       "slug": "aba",
-      "image": "Aba.jpeg"
+      "image": "aba.jpg"
     },
     {
-      "Name": "Bistro555",
+      "Name": "Bistro 555",
       "City": "Houston",
       "Address": "13616 Memorial Dr, Houston, TX 77079",
       "Type of Cuisine": "French",
       "slug": "bistro",
-      "image": "Bistro.jpg"
+      "image": "bistro.jpg"
     },
     {
       "Name": "Sunday in Brooklyn",
       "City": "New York",
       "Address": "348 Wythe Ave, Brooklyn, NY 11249",
       "Type of Cuisine": "American",
-      "slug": "sunday-bk",
-      "image": "Sunday.jpeg"
+      "slug": "sunday",
+      "image": "sunday.jpeg"
     }
   ]
 }
