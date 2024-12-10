@@ -12,15 +12,16 @@
   <div class="row">
     {% for restaurant in recommended.Recommended %}
       <div class="col">
-        <img src="img/{{ restaurant.slug }}.jpg" width=300 height=200 alt="" class="img-fluid">
-        <h3><a href="restaurants/{{ restaurant.slug }}.html">{{ restaurant.Name }}</a></h3>
+        <a href="restaurants/{{ restaurant.slug }}.html"><img src="img/{{ restaurant.slug }}.jpg" width=300 height=200 alt="" class="img-fluid"></a>
+        <h3>{{ restaurant.Name }}</h3>
       </div>
     {% endfor %}
   </div>
   <hr>
   {% for restaurant in restaurants.Restaurants %}
     <h3><a href="{{ restaurant.url }}" target="_blank">{{ restaurant.Name }}</a></h3>
-    <p>{{ restaurant.Address }}, {{ restaurant.City }}, {{ restaurant.State }} {{ restaurant.Zip }}</p>
+    <h6>{{ restaurant.Cuisine }}</h6>
+    <p>{{ restaurant.Address }}</p>
     <hr>
   {% endfor %}
 </div>
